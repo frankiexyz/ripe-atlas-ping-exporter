@@ -1,7 +1,7 @@
 #Replace your API key and Atlas Task ID
 
 ###prometheus configuration###
-
+```
   - job_name: 'ripe-atlas-ping'
     scrape_interval: 60s
     metrics_path: /
@@ -22,3 +22,4 @@
         regex: .*
         target_label: __address__
         replacement: 127.0.0.1:9001  # Blackbox exporter.
+```
