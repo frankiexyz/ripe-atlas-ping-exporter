@@ -1,6 +1,5 @@
-#Replace your API key and Atlas Task ID
-
-###prometheus configuration###
+#RIPE Atlas Ping measurement exporter
+Prometheus configuration
 ```
   - job_name: 'ripe-atlas-ping'
     scrape_interval: 60s
